@@ -86,11 +86,14 @@
 <!--		</dependency>-->
 
 		<!-- Servlet API (provided by the container) -->
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+		<!--		JSP -->
 
 		<dependency>
 			<groupId>org.glassfish.web</groupId>
@@ -108,16 +111,28 @@
 			</exclusions>
 		</dependency>
 
+		<!--		JSTL -->
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
 
+		<!--		JSP TOMPCAT-->
+
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
+
+		<!--		JSP AUTO RELOAD-->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+
 
 	</dependencies>
 
