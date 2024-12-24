@@ -175,6 +175,11 @@
         .social-links div:active {
             box-shadow: inset 1px 1px 2px #babebc, inset -1px -1px 2px #fff;
         }
+
+        #logoText {
+            font-size: 45px;
+        }
+
     </style>
 </head>
 <body>
@@ -228,7 +233,7 @@
                 <button id="signIn" class="overlay_btn">Sign In</button>
             </div>
             <div class="overlay-right">
-                <h1>Showing</h1>
+                <h1 id="logoText">Showing</h1>
                 <p>Enter your personal details and start journey with us</p>
                 <button id="signUp" class="overlay_btn">Sign Up</button>
             </div>
